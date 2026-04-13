@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 
-# Initialize Mediapipe
+# Initialize Mediapipehi
 mp_hands = mp.solutions.hands
 mp_draw = mp.solutions.drawing_utils
 hands = mp_hands.Hands(max_num_hands=2)
